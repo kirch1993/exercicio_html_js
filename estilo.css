@@ -1,0 +1,71 @@
+/* estilo.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #58117f;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #3e8891;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s, background-color 0.3s;
+    background-color: #5a2034;
+    color: #fcfcfc;
+}
+
+input[type="number"]:focus {
+    border-color: #ff5e62;
+    background-color: #ff9966;
+    color: #4e524e;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
